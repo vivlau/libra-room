@@ -1,0 +1,345 @@
+/* Fonts Shared */
+h1,
+h2,
+h3,
+h4,
+h5 {
+  /*font-family: 'Arvo', serif;
+  font-family: 'Josefin Sans', sans-serif;*/
+  font-family: 'Josefin Sans', serif;
+}
+
+/* General */
+a {
+  color: white;
+}
+
+a:hover {
+  color: #2ecc71;
+  text-decoration: none;
+}
+
+/* Nav Bar Stuff */
+nav {
+  position: fixed;
+  z-index: 1;
+  height: 75px;
+  box-shadow: 0px 3px 5px black;
+}
+
+.desktop-navlinks {
+  margin: 5px 20px 0px 0px;
+}
+
+.mobile-navlinks {
+  padding-top: 5px;
+}
+
+.navbar-logo {
+  margin: 5px 0px 0px 20px;
+}
+
+.nav-wrapper {
+  background-color: #262228;
+}
+
+/* Video Background */
+.homepage-hero-module {
+    border-right: none;
+    border-left: none;
+    position: relative;
+}
+.no-video .video-container video,
+.touch .video-container video {
+    display: none;
+}
+.no-video .video-container .poster,
+.touch .video-container .poster {
+    display: block !important;
+}
+.video-container {
+    position: relative;
+    bottom: 0%;
+    left: 0%;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    background: #000;
+}
+.video-container .poster img {
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+}
+.video-container .filter {
+    z-index: 100;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.4);
+    width: 100%;
+}
+.video-container video {
+    position: absolute;
+    z-index: 0;
+    bottom: 0;
+}
+.video-container video.fillWidth {
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+/* Main Logo (first section) */
+.logo-row {
+  position: absolute;
+}
+
+.spacer {
+  height: 100vh;
+}
+
+#rectangle {
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  border: 2px solid white;
+  margin: 10%;
+  color: white;
+}
+
+.logo-center {
+  position: relative;
+  height: 100vh;
+}
+
+.outer-old-tv-screen {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  position: relative;
+  margin: 20px 0;
+  border: none;
+  -webkit-border-radius: 50% / 10%;
+  border-radius: 50% / 10%;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  text-indent: 0.1em;
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  border: 5px solid white;
+}
+
+.old-tv-screen {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  position: relative;
+  border: none;
+  -webkit-border-radius: 50% / 10%;
+  border-radius: 50% / 10%;
+  padding: 20px;
+  color: white;
+  text-align: center;
+  text-indent: 0.1em;
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  border: 1px solid white;
+}
+
+.logo-image {
+  width: 100%;
+}
+
+.center-logo-text {
+  color: white;
+}
+
+/* About (second section) */
+#about {
+  background-color: #262228;
+  height: 100%;
+  padding: 20px;
+}
+
+.about-outline {
+  border: 5px solid white;
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+}
+
+.about-inline {
+  border: 1px solid white;
+  height: 100%;
+  width: 100%;
+  padding: 5%;
+}
+
+.about-text {
+  font-family: "Josefin Sans";
+  font-size: 20px;
+  color: white;
+}
+
+/* Menu (third section) */
+.tab {
+  font-family: "Josefin Sans";
+}
+
+.tab-title {
+  font-size: 16px;
+}
+
+.tabs {
+  height: 100%;
+  background-color: #262228;
+}
+
+#tabs-swipe-demo {
+  margin-bottom: 30px;
+}
+
+li .active {
+  text-decoration: none;
+}
+
+.tab-title {
+  color: #2ecc71;
+  text-decoration: none;
+}
+
+.tab-title:hover {
+  text-decoration: none;
+}
+
+.tabs .indicator {
+  background-color: #2ecc71;
+}
+
+#menu {
+  background-image: url("../images/default-bg-image.jpg");
+  background-size: cover;
+  height: 100%;
+  padding: 10% 0;
+}
+
+.menu-spacer {
+  height: 100px;
+}
+
+.menu-background {
+  background-color: #262228;
+  height: 100%;
+  width: 100%;
+  text-align: left;
+}
+
+.menu-title {
+  min-width: 100%;
+  margin: 20px;
+  margin-top: 40px;
+}
+
+.menu-text {
+  font-family: "Josefin Sans";
+  font-size: 20px;
+  color: white;
+  padding: 20px;
+}
+
+.menu-item {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 50px;
+  font-weight: 300;
+}
+
+.menu-price {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 100px;
+  padding: 0 10px;
+  text-align: right;
+  font-weight: 100;
+}
+
+.beer-menu-item {
+  margin: 0;
+  margin-left: 50px;
+  font-weight: 300;
+}
+
+.beer-menu-price {
+  padding: 0 10px;
+  text-align: right;
+  font-weight: 100;
+}
+
+.wine-block {
+  text-align: left;
+}
+
+.wine-text {
+}
+
+/* Events (fourth section) */
+#event {
+  background-color: #262228;
+  height: 100%;
+  padding: 20px;
+}
+
+.event-outline {
+  border: 5px solid white;
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+}
+
+.event-inline {
+  border: 1px solid white;
+  height: 100%;
+  width: 100%;
+  padding: 5%;
+}
+.event-text {
+  font-family: "Josefin Sans";
+  font-size: 20px;
+  color: white;
+}
+
+/* Contact Information (fifth section) */
+#contact {
+  background-image: url("../images/beer.jpeg");
+  background-size: cover;
+  height: 100%;
+  padding: 10% 0;
+}
+
+.contact-background {
+  background-color: #262228;
+  height: 100%;
+  width: 100%;
+  text-align: left;
+}
+
+.contact-title {
+  min-width: 100%;
+  margin: 20px;
+  margin-top: 40px;
+}
+
+.contact-text {
+  font-family: "Josefin Sans";
+  font-size: 20px;
+  color: white;
+  padding: 20px;
+}
+
+.contact-body {
+  margin-left: 25px;
+  margin-bottom: 30px;
+}
+
+iframe {
+  margin-bottom: 30px;
+}

@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>The Libra Room</title>
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="./css/zabuto_calendar.css">
+    <link rel="stylesheet" href="./css/index.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="./javascript/index.js"></script>
+    <script src="./javascript/zabuto_calendar.min.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Arvo|Josefin+Sans:100,300|Josefin+Slab:700" rel="stylesheet">
+
+  </head>
+  <body>
+
+    <!-- Navigation Bar -->
+    <nav>
+      <div class="nav-wrapper">
+        <a href="#main" class="brand-logo"><img src="./images/logowhite-01.png" width="100px" class="navbar-logo hide-on-med-and-down"/></a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down desktop-navlinks">
+          <li><a href="#about">About</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#event">Events</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <ul id="nav-mobile" class="center-align hide-on-large-only mobile-navlinks">
+          <li><a href="#about">About</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#event">Events</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- First Div (Title) -->
+    <div id = "main">
+      <!-- Background Video -->
+      <div class="video-container">
+          <div class="filter"></div>
+          <video autoplay loop class="fillWidth">
+              <source src="./images/Three-Cocktails.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
+              <source src="./images/Three-Cocktails.webm" type="video/webm" />Your browser does not support the video tag. I suggest you upgrade your browser.
+          </video>
+          <div class="logo-row row">
+            <div class = "spacer col s1 m2 l3 xl4 my-wrapper valign-wrapper center-align">
+              <div id = "rectangle" class = "hide-on-med-and-down">
+                <h5>RESTAURANT</h5>
+              </div>
+            </div>
+            <div class = "logo-center col s10 m8 l6 xl4 my-wrapper valign-wrapper center-align">
+              <div class="outer-old-tv-screen">
+                <div class="old-tv-screen">
+                  <img src="./images/logowhite-01.png" width="640px" class="logo-image"/>
+                </div>
+              </div>
+              <div class="center-logo-text hide-on-large-only col s12">
+                <h5>Restaurant and Music Lounge</h5>
+              </div>
+            </div>
+            <div class = "spacer col s1 m2 l3 xl4 my-wrapper valign-wrapper center-align">
+              <div id = "rectangle" class = "hide-on-med-and-down">
+                <h5>MUSIC LOUNGE</h5>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+
+    <!-- Second Div (About) -->
+    <div id = "about">
+      <div class = "about-outline">
+        <div class = "about-inline">
+          <div class = "about-text">
+            <h3>ABOUT</h3>
+            <p>Welcome to the Libra Room, the only spot in Vancouver to catch live music seven-nights a week. Now in its tenth year of transformation, the Libra Room – located in the heart of Commercial Drive – has carved out its own unique niche in the community.</p>
+            <p>Like the neighbourhood it’s situated in, the space is colourfully eclectic. Wooden tables, chairs, centre-bar and performance stage add a rustic charm to the perennial haunt. Works from local artists decorate the walls. Each month a new artist is featured with the pieces available for purchase.</p>
+            <p>The Libra Room is home to young burgeoning musicians and Vancouver jazz giants such as John Korsrud, Wes Mackey and Bruno Hubert. Two bands perform nightly, taking the stage at 6:30 pm and 9 pm respectively. Supporting the local music scene, the Libra Room has played host to major musical events, such as the New Music West festival, The Juno Festival and the Vancouver Jazz Festival.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Third Div (Menu) -->
+    <div id = "menu">
+      <div class = "row">
+        <div class = "menu-spacer col s1 m2 l2 xl3"></div>
+        <div class = "menu-background col s10 m8 l8 xl6 my-wrapper valign-wrapper center-align">
+          <div class = "menu-text col s12">
+            <h3 class = "menu-title">MENU</h3>
+            <ul id="tabs-swipe-demo" class="tabs">
+              <li class="tab col s3"><a href="#test-swipe-1"><h5 class = "tab-title">SNACKS</h5></a></li>
+              <li class="tab col s3"><a href="#test-swipe-2"><h5 class = "tab-title">SALADS</h5></a></li>
+              <li class="tab col s3"><a href="#test-swipe-3"><h5 class = "tab-title">WATER</h5></a></li>
+              <li class="tab col s3"><a href="#test-swipe-4"><h5 class = "tab-title">LAND</h5></a></li>
+            </ul>
+            <div id="test-swipe-1" class="col s12">
+              <div class = "menu-item col s10">
+                WARM SPICED OLIVES
+                <br />
+                Thyme, Rosemary, Garlic, and Orange Zest
+              </div>
+              <div class = "menu-price col s2">
+                $5
+              </div>
+
+              <div class = "menu-item col s10">
+                TRIPLE COOKED FRIES
+                <br />
+                Roasted Garlic and Harissa Aioli
+              </div>
+              <div class = "menu-price col s2">
+                $6
+              </div>
+
+              <div class = "menu-item col s10">
+                CRISPY HALLOUMI CHEESE
+                <br />
+                Tomato Chili Jam, Buttermilk Ranch
+              </div>
+              <div class = "menu-price col s2">
+                $6
+              </div>
+
+              <div class = "menu-item col s10">
+                CHICKPEA FLOUR PUFFS
+                <br />
+                Hummus, Baba Ganoush
+              </div>
+              <div class = "menu-price col s2">
+                $6
+              </div>
+
+              <div class = "menu-item col s10">
+                MEDITERRANEAN POUTINE
+                <br />
+                Greek Dressing Gravy, Feta Cheese, Red Onions, Cherry Tomatoes
+              </div>
+              <div class = "menu-price col s2">
+                $7
+              </div>
+
+              <div class = "menu-item col s10">
+                MEATLESS EGGPLANT MEATBALLS
+                <br />
+                Feta Cheese, Basil, Harissa Hummus
+              </div>
+              <div class = "menu-price col s2">
+                $7
+              </div>
+
+              <div class = "menu-item col s10">
+                LAMB MEATBALLS
+                <br />
+                Lemon Yogurt, Spicy Chili Glaze
+              </div>
+              <div class = "menu-price col s2">
+                $10
+              </div>
+
+              <div class = "menu-item col s10">
+                MIDDLE EASTERN FRIED CHICKEN
+                <br />
+                Tahini, Za'atar, Spicy Chili Ranch
+              </div>
+              <div class = "menu-price col s2">
+                $12
+              </div>
+
+              <div class = "menu-item col s10">
+                MEDITERRANEAN CHEESE DIP
+                <br />
+                Feta Cheese, Olives, Cherry Tomatoes
+              </div>
+              <div class = "menu-price col s2">
+                $11
+              </div>
+
+              <div class = "menu-item col s10">
+                MEZZA PLATE
+                <br />
+                Hummus, Preserved Labneh, Spiced Olives
+              </div>
+              <div class = "menu-price col s2">
+                $12
+              </div>
+
+              <div class = "menu-item col s10">
+                CHARCUTERIE AND CHEESE BOARD
+                <br />
+                Selection of the Moment
+              </div>
+              <div class = "menu-price col s2">
+                $12
+              </div>
+            </div>
+
+            <div id="test-swipe-2" class="col s12">
+              <div class = "menu-item col s10">
+                BRASSICA SALAD
+                <br />
+                Charred Broccolini, Hummus, Kale, Seeds, 6-min egg, Avocado, Burnt Lemon Vine
+              </div>
+              <div class = "menu-price col s2">
+                $11
+              </div>
+
+              <div class = "menu-item col s10">
+                BABY BEET SALAD
+                <br />
+                Avocado Puree, Pumpkin Seed Crumble, Citrus Segments, Micro Greens
+              </div>
+              <div class = "menu-price col s2">
+                $14
+              </div>
+
+              <div class = "menu-item col s10">
+                CAPRESE SALAD
+                <br />
+                Heirloom Tomatoes, Compressed Watermelon, Pickled Shallots, Basil, Preserved Labneh
+                <br />
+                ADD: Chicken or Prawns $5
+              </div>
+              <div class = "menu-price col s2">
+                $17
+              </div>
+            </div>
+
+            <div id="test-swipe-3" class="col s12">
+              <div class = "menu-item col s10">
+                MUSSELS AND FRIES
+                <br />
+                Pickled Shallots, Garlic, White Wine Butter Sauce
+              </div>
+              <div class = "menu-price col s2">
+                $14
+              </div>
+
+              <div class = "menu-item col s10">
+                PAN ROASTED LING COD
+                <br />
+                Herb Spätzle, Mussels, and Clams in a Saffron Broth
+              </div>
+              <div class = "menu-price col s2">
+                $14
+              </div>
+
+              <div class = "menu-item col s10">
+                PAN SEARED SALMON
+                <br />
+                Herb Spätzle, Mussels, and Clams in a Saffron Broth
+              </div>
+              <div class = "menu-price col s2">
+                $14
+              </div>
+            </div>
+
+            <div id="test-swipe-4" class="col s12">
+              <div class = "menu-item col s10">
+                BEEF STRIPLOIN
+                <br />
+                Garlic Broken New Potatoes, Caramelized Shiitake Mushroom Ketchup
+              </div>
+              <div class = "menu-price col s2">
+                $14
+              </div>
+
+              <div class = "menu-item col s10">
+                LIBRA BEEF BURGER
+                <br />
+                Tomato Chili Jam, Crispy Halloumi Cheese
+              </div>
+              <div class = "menu-price col s2">
+                $14
+              </div>
+
+              <div class = "menu-item col s10">
+                MOROCCAN BEEF SHORT RIB
+                <br />
+                Slow Braised, Soft Polenta, Red Wine Demi
+              </div>
+              <div class = "menu-price col s2">
+                $15
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Fourth Div (Events) -->
+    <div id = "event">
+      <div class = "event-outline">
+        <div class = "event-inline">
+          <div class = "event-text">
+            <h3>EVENTS</h3>
+            <div id="my-calendar"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Fifth Div (Contact) -->
+    <div id = "contact">
+      <div class = "row">
+        <div class = "menu-spacer col s1 m2 l2 xl3"></div>
+        <div class = "contact-background col s10 m8 l8 xl6 my-wrapper valign-wrapper center-align">
+          <div class = "contact-text col s12">
+            <h3 class = "contact-title">CONTACT</h3>
+            <div class = "contact-body">
+              <li>604-123-4567</li>
+              <li>Monday to Friday 10am to 12am, Weekends 11am to 2am</li>
+              <li>For reservations for 6 or more people please email <a href="mailto:libraroomreservations@gmail.com">libraroomreservations@gmail.com</a></li>
+            </div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2603.3221640073884!2d-123.07165898397005!3d49.270292379568914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548671475bff198f%3A0x3211268dfba05c4b!2sLibra+Room!5e0!3m2!1sen!2sca!4v1501134057663" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>
